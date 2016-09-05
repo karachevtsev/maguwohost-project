@@ -64,7 +64,7 @@ gulp.task('jscompress', function () {
 });
 
 gulp.task("images", function() {
-  return gulp.src("src/images/**/*.{png,jpg,gif,svg}")
+  return gulp.src("src/images/*.{png,jpg,gif,svg}")
     .pipe(imagemin([
       imagemin.optipng({optimizationLevel: 3}),
       imagemin.jpegtran({progressive: true}),
@@ -73,15 +73,15 @@ gulp.task("images", function() {
     .pipe(gulp.dest("build/img"));
 });
 
-gulp.task("symbols", function() {
-  return gulp.src("build/img/*.svg")
-    .pipe(svgmin())
-    .pipe(svgstore({
-      inlineSvg: true
-    }))
-    .pipe(rename("symbols.svg"))
-    .pipe(gulp.dest("build/img"));
-});
+// gulp.task("symbols", function() {
+//   return gulp.src("build/img/*.svg")
+//     .pipe(svgmin())
+//     .pipe(svgstore({
+//       inlineSvg: true
+//     }))
+//     .pipe(rename("symbols.svg"))
+//     .pipe(gulp.dest("build/img"));
+// });
 
 gulp.task("fonts", function() {
   gulp.src("src/fonts/**/*.{ttf,woff,woff2}")
@@ -128,7 +128,7 @@ gulp.task("build", function(fn) {
     "jscompress",
     "fonts",
     "images",
-    "symbols",
+    // "symbols",
     // "libs",
     fn
   );
