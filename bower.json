@@ -1,0 +1,17 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "homepage": "https://github.com/karachevtsev/gulp-template.git",
+  "authors": [
+    "Artem Karachevtsev <karachevtsev@yahoo.com>"
+  ],
+  "description": "Basic project template for development and production for HTML/CSS/JS page layout",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.3.5"
+  }
+}

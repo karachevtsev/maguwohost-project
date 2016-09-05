@@ -1,0 +1,16 @@
+node_modules/
+bower_components/
+build/
+design/
+.vscode/
+.DS_Store
+Thumbs.db
+.idea
+.publish
+ex_files
+*.sublime-*
+*.log
+*.psd
+*.ai
+*.pdf
+TODO.md
