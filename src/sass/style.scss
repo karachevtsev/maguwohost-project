@@ -1,9 +1,14 @@
 @import "global/mixin";
 @import "global/variable";
-@import "global/normalize";
 @import "global/fonts";
 @import "global/buttons";
 @import "global/forms";
 @import "global/base";
 @import "blocks/header";
-@import "blocks/footer"
+@import "blocks/menu";
+@import "blocks/logo";
+@import "blocks/callback";
+@import "blocks/footer";
+
+@import "blocks/media";
+;

@@ -1,0 +1,95 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1200px)  {
+  .logo {
+    margin-right: 30px;
+  }
+
+  .callback {
+    padding-left: 0;
+    &__title {
+      margin-bottom: 17px;
+      font-size: 10px;
+    }
+    &__phone {
+      font-size: 18px;
+      padding-left: 18px;
+      margin-left: 20px;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .logo {
+    margin-right: 10px;
+  }
+
+  .callback {
+    padding-top: 45px;
+    text-align: center;
+    &__title {
+      display: none;
+    }
+    &__phone {
+      display: block;
+      border-left: none;
+      font-size: 16px;
+      margin-left: 0px;
+      padding-left: 0;
+    }
+  }
+
+  .btn--callback {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    &__link {
+      font-size: 14px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .logo {
+    margin-top: 0;
+  }
+
+  .menu {
+    &__item {
+      float: none;
+      margin-right: 0px;
+    }
+    &__link {
+      line-height: 45px;
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .callback {
+    padding-top: 20px;
+    float: none;
+    &__title {
+      font-size: 12px;
+      display: block;
+    }
+    &__phone {
+      font-size: 18px;
+    }
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+  /* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

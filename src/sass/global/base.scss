@@ -1,7 +1,7 @@
 body {
-  // @include font($ptsans, 16px, 20px, 400);
-
-  color: $black;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #424242;
 }
 
 h1,
@@ -20,4 +20,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  outline: 1px solid lime;
 }

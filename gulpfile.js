@@ -84,24 +84,24 @@ gulp.task("images", function() {
 // });
 
 gulp.task("fonts", function() {
-  gulp.src("src/fonts/**/*.{ttf,woff,woff2}")
+  gulp.src("src/fonts/**/*.*")
     .pipe(gulp.dest("build/fonts"))
 });
 
-// gulp.task('libs', function() {
-//   return gulp.src(mainBowerFiles({
-//     "overrides": {
-//       "bootstrap": {
-//         "main" : [
-//           "./dist/js/bootstrap.min.js",
-//           "./dist/css/bootstrap.min.css",
-//           "./dist/css/bootstrap-theme.min.css"
-//         ]
-//       }
-//     }
-//   }))
-//     .pipe(gulp.dest("build/libs"))
-// });
+gulp.task('libs', function() {
+  return gulp.src(mainBowerFiles({
+    "overrides": {
+      "bootstrap": {
+        "main" : [
+          "./dist/js/bootstrap.min.js",
+          "./dist/css/bootstrap.min.css",
+          "./dist/css/bootstrap-theme.min.css"
+        ]
+      }
+    }
+  }))
+    .pipe(gulp.dest("build/libs"))
+});
 
 gulp.task("serve", ["style"], function() {
   server.init({
@@ -129,7 +129,7 @@ gulp.task("build", function(fn) {
     "fonts",
     "images",
     // "symbols",
-    // "libs",
+    "libs",
     fn
   );
 });
