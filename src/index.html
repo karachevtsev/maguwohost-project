@@ -7,37 +7,47 @@
   <meta name="robots" content="index, follow">
   <meta name="title" content="Document">
   <title>Maguwohost</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link href="libs/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 </head>
 <body>
 
-  <header class="page-header">
-    <div class="container clearfix">
+  <header class="main-header">
+   <!-- Navbar Start -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="row">
 
-      <div class="logo">
-        <a href="" class="logo__link">
-          <img src="" width="" height="" alt="" class="logo__image">
-        </a>
+          <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <a class="navbar-brand logo" href="#">
+              <img src="img/logo@1x.png" width="226" height="33" alt="Maguwohost" class="logo__image">
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="" class="menu__link menu__link--active">Home</a></li>
+                <li class="menu__item"><a href="" class="menu__link">About</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Pricing</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Domain</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Hosting</a></li>
+              </ul>
+            </nav>
+
+            <div class="callback">
+              <p class="callback__title">Do you need help ? Just Email, Live chat or Call us</p>
+              <a href="" class="btn btn--callback">Live chat</a>
+              <div class="callback__phone callback__phone--border-left">6545-5454</div>
+            </div>
+          </div>
+
+        </div>
       </div>
-
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item"><a href="" class="menu__link menu__link--active">Home</a></li>
-          <li class="menu__item"><a href="" class="menu__link">About</a></li>
-          <li class="menu__item"><a href="" class="menu__link">Price</a></li>
-          <li class="menu__item"><a href="" class="menu__link">Domain</a></li>
-          <li class="menu__item"><a href="" class="menu__link">Hosting</a></li>
-        </ul>
-      </nav>
-
-      <div class="callback">
-        <p class="callback__title">Lorem ipsum dolor sit amet</p>
-        <a href="" class="callback__link">Live chat</a>
-        <div class="callback__phone">6545-5454</div>
-      </div>
-
-    </div>
+    </nav>
+    <!-- Navbar End -->
   </header>
 
   <div class="promo">
@@ -205,6 +215,8 @@
     </div>
   </footer>
 
+  <script src="libs/jquery.js"></script>
+  <script src="libs/bootstrap.min.js"></script>
   <script src="js/app.min.js"></script>
 </body>
 </html>

@@ -1,12 +1,68 @@
-// @include font-face("PTSans", "../fonts/PTSans", 400, normal, eot woff2 woff ttf svg);
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway-regular.eot');
+  src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-regular.woff2') format('woff2'),
+       url('../fonts/raleway-regular.woff') format('woff'),
+       url('../fonts/raleway-regular.ttf') format('truetype'),
+       url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Gotham';
-//   src:  url('../font/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
-//         url('../font/GothamPro-Medium.otf') format('opentype'),
-//         url('../font/GothamPro-Medium.woff') format('woff'),
-//         url('../font/GothamPro-Medium.ttf') format('truetype'),
-//         url('../font/GothamPro-Medium.svg#font/GothamPro-Medium') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url('../fonts/raleway-bold.eot');
+  src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-bold.woff2') format('woff2'),
+       url('../fonts/raleway-bold.woff') format('woff'),
+       url('../fonts/raleway-bold.ttf') format('truetype'),
+       url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-Semi-Bold';
+  src: url('../fonts/raleway-semibold.eot');
+  src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-semibold.woff2') format('woff2'),
+       url('../fonts/raleway-semibold.woff') format('woff'),
+       url('../fonts/raleway-semibold.ttf') format('truetype'),
+       url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rockwell';
+  src: url('../fonts/rockwell-bold.eot');
+  src: url('../fonts/rockwell-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/rockwell-bold.woff2') format('woff2'),
+       url('../fonts/rockwell-bold.woff') format('woff'),
+       url('../fonts/rockwell-bold.ttf') format('truetype'),
+       url('../fonts/rockwell-bold.svg#rockwell-boldregular') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rockwell';
+  src: url('../fonts/rockwell-regular.eot');
+  src: url('../fonts/rockwell-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/rockwell-regular.woff') format('woff'),
+       url('../fonts/rockwell-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato-bold.eot');
+  src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/lato-bold.woff2') format('woff2'),
+       url('../fonts/lato-bold.woff') format('woff'),
+       url('../fonts/lato-bold.ttf') format('truetype'),
+       url('../fonts/lato-bold.svg#latobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
