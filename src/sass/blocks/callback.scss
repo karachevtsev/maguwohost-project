@@ -1,23 +1,28 @@
 .callback {
-  padding-left: 45px;
+  float: right;
+
   padding-top: 36px;
   padding-bottom: 41px;
-  float: right;
+  padding-left: 45px;
 
   &__title {
     margin-bottom: 17px;
+
     font-family: 'Raleway-Semi-Bold';
     font-size: 12px;
     line-height: 24px;
+
     color: #202242;
   }
 
   &__phone {
+    display: inline-block;
     padding-left: 21px;
     margin-left: 30px;
-    display: inline-block;
+
     font-family: 'Lato';
     font-size: 24px;
+
     &--border-left {
       border-left: 1px solid #babbc4;
     }
@@ -25,18 +30,22 @@
 }
 
 .btn--callback {
+  padding: 20px 22px;
+  vertical-align: 4px;
+
   font-family: 'Raleway-Semi-Bold';
   font-size: 14px;
   line-height: 0;
+
+
   color: #202242;
-  padding: 20px 22px;
-  background-color: $yellow;
+
   border: 1px solid $yellow;
-  border-radius: 0;
-  vertical-align: 4px;
+
   &:hover{
-    transition: all .5s ease;
     background-color: #fff;
+
+    transition: all .5s ease;
   }
 
 }

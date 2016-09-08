@@ -33,17 +33,6 @@
   font-weight: 600;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Rockwell';
-  src: url('../fonts/rockwell-bold.eot');
-  src: url('../fonts/rockwell-bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/rockwell-bold.woff2') format('woff2'),
-       url('../fonts/rockwell-bold.woff') format('woff'),
-       url('../fonts/rockwell-bold.ttf') format('truetype'),
-       url('../fonts/rockwell-bold.svg#rockwell-boldregular') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'Rockwell';
@@ -52,6 +41,18 @@
        url('../fonts/rockwell-regular.woff') format('woff'),
        url('../fonts/rockwell-regular.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rockwell-Bold';
+  src: url('../fonts/rockwell-bold.eot');
+  src: url('../fonts/rockwell-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/rockwell-bold.woff2') format('woff2'),
+       url('../fonts/rockwell-bold.woff') format('woff'),
+       url('../fonts/rockwell-bold.ttf') format('truetype'),
+       url('../fonts/rockwell-bold.svg#rockwell-boldregular') format('svg');
+  font-weight: bold;
   font-style: normal;
 }
 
