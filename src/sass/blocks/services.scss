@@ -1,0 +1,96 @@
+.services {
+
+  &__container {
+    padding-top: 320px;
+    padding-bottom: 105px;
+
+    text-align: center;
+
+    color: #fff;
+
+    &--blue {
+      position: relative;
+
+      background-color: blue;
+      &:before {
+        content: '';
+
+        position: absolute;
+        top: 115px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        display: block;
+        width: 168px;
+        height: 169px;
+        margin: 0 auto;
+
+        background-image: url(../img/sprite.png);
+        background-position: -3px -630px;
+        background-repeat: no-repeat;
+      }
+    }
+    &--yellow {
+      position: relative;
+
+      background-color: $yellow;
+      &:before {
+        content: '.com';
+
+        position: absolute;
+        top: 115px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        display: block;
+        height: 169px;
+        margin: 0 auto;
+
+        font-family: 'Raleway-Bold';
+        font-size: 134px;
+
+        color: #202242;
+      }
+    }
+  }
+
+  &__content {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-bottom: 22px;
+
+    font-family: 'Raleway-Semi-Bold';
+    font-size: 36px;
+  }
+
+  &__text {
+    margin-bottom: 22px;
+  }
+}
+
+.p0 {
+  padding: 0;
+}
+
+.btn--services {
+  padding: 15px 55px;
+
+  font-family: 'Raleway-Semi-Bold';
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #fff;
+  border: 2px solid #fff;
+
+  transition: all .5s ease;
+  &:hover {
+    color: #202242;
+    background-color: #fff;
+  }
+}
+
