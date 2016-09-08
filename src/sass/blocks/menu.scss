@@ -1,6 +1,7 @@
 .menu {
   &__item {
     float: left;
+
     margin-right: 20px;
     &:last-child {
       margin-right: 0;
@@ -11,11 +12,15 @@
     font-family: 'Raleway';
     font-size: 16px;
     line-height: 160px;
-    color: #202242;
     text-transform: uppercase;
+
+    color: #202242;
+
     &:hover {
       text-decoration: none;
+
       color: $yellow;
+
       transition: all .5s ease;
     }
     &--active {

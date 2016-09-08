@@ -1,0 +1,128 @@
+.promo {
+  position: relative;
+
+  padding-top: 300px;
+  padding-bottom: 170px;
+  min-height: 600px;
+
+  text-align: center;
+
+  background-image: url(../img/bg-promo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: #bababa;
+    opacity: .33;
+  }
+
+  &__title {
+    position: relative;
+    z-index: 10;
+
+    margin-bottom: 40px;
+
+    font-family: "Rockwell";
+    font-size: 48px;
+
+    color: #fff;
+  }
+
+  &__description {
+    position: relative;
+    z-index: 10;
+
+    margin-bottom: 220px;
+    font-size: 30px;
+
+    color: #fff;
+    &:after {
+      position: absolute;
+      top: 260px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+
+      display: block;
+      width: 120px;
+      height: 120px;
+      margin: auto;
+
+      content: '';
+      background: url(../img/figure.svg) ;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.search {
+  position: relative;
+  z-index: 10;
+
+  display: inline-block;
+
+  font-size: 0;
+
+  border: 16px solid rgba(221, 221, 221, .5);
+
+  &__field {
+    width: 270px;
+    height: 56px;
+    padding: 0px 0 0 22px;
+
+
+    font-size: 18px;
+    color: #2d2d2d;
+
+    border: none;
+    &::-webkit-input-placeholder {color:#2d2d2d;}
+    &::-moz-placeholder          {color:#2d2d2d;}
+    &:-moz-placeholder           {color:#2d2d2d;}
+    &:-ms-input-placeholder      {color:#2d2d2d;}
+  }
+
+  &__select {
+    position: relative;
+
+    height: 56px;
+    padding: 0 47px 0 24px;
+
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: top;
+
+    color: #2d2d2d;
+    background: #ffe13e;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+  }
+}
+
+.btn--search {
+  padding: 20px 15px 20px 15px;
+
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #2d2d2d;
+  border-left: 1px solid #fff;
+  &:hover{
+    background-color: #fff;
+    border: 1px solid $yellow;
+
+    transition: all .5s ease;
+  }
+}
