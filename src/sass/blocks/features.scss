@@ -1,0 +1,143 @@
+.features {
+  padding-top: 90px;
+
+  text-align: center;
+
+  background-image: url(../img/bg-features.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #fbf8f1;
+
+  color: #202242;
+  &__title {
+    position: relative;
+
+    margin-bottom: 20px;
+
+    font-family: 'Raleway-Bold';
+    font-size: 48px;
+
+  }
+
+  &__text {
+    margin-bottom: 85px;
+
+    font-family: 'Raleway';
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.feature {
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+  position: relative;
+  &--support:before {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+
+    background-image: url(../img/sprite.png);
+    background-position: -3px -17px;
+    background-repeat: no-repeat;
+  }
+  &--technology:before {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+
+    background-image: url(../img/sprite.png);
+    background-position: -3px -151px;
+    background-repeat: no-repeat;
+  }
+  &--database:before {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+
+    background-image: url(../img/sprite.png);
+    background-position: -3px -285px;
+    background-repeat: no-repeat;
+  }
+  &--monitoring:before {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+
+    background-image: url(../img/sprite.png);
+    background-position: -3px -419px;
+    background-repeat: no-repeat;
+  }
+  &__title {
+    margin-bottom: 20px;
+
+    font-family: 'Rockwell';
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #f4d320;
+    &:before {
+      position: absolute;
+
+      content: "";
+
+      top: 160px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+
+      display: block;
+      height: 3px;
+      width: 70px;
+      margin: 0 auto;
+
+
+      background: #8d8d99;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+}
