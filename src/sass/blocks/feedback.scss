@@ -1,0 +1,50 @@
+.feedback-container {
+
+}
+
+.feedback {
+  position: relative;
+
+  background-color: #f5f3f3;
+  &__text {
+
+
+    display: block;
+
+    font-size: 14px;
+    font-style: italic;
+
+    color: #adadad;
+
+    border: none;
+  }
+
+  &__author
+  {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #696969;
+  }
+
+  &__image {
+    position: absolute;
+
+    top: 115px;
+    left: 210px;
+    bottom: 0;
+    right: 0;
+
+    display: block;
+    margin: 0 auto;
+
+    background-color: #f5f3f3;
+    border: 6px solid #e7e8eb;
+    border-radius: 100%;
+  }
+}
