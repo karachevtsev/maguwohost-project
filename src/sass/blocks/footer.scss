@@ -1,0 +1,137 @@
+.main-footer {
+  padding-top:  80px;
+
+  background-color: #363855;
+
+  color: #fff;
+
+  &__menu {
+    float: right;
+    text-align: right;
+    width: 100px;
+    .menu--footer {
+      margin-bottom: 40px;
+      .menu__item {
+        float: none;
+        margin: 0;
+
+        border-bottom: 1px solid #5D5F86;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      .menu__link {
+        font-family: 'Raleway';
+        font-size: 16px;
+        line-height: 36px;
+        text-transform: none;
+
+        color: #fff;
+
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+
+    font-family: 'Raleway-Bold';
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  &__to-top {
+    font-family: 'Raleway';
+    font-size: 12px;
+    line-height: 36px;
+    text-transform: none;
+
+    color: #fff;
+
+    transition: all .5s ease;
+    &:hover {
+      color: $yellow;
+      text-decoration: none;
+    }
+  }
+
+  &__copyright {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.map {
+  position: relative;
+
+  min-height:480px;
+
+  background-image: url(../img/bg-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__marker {
+    position: relative;
+
+    display: block;
+
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #fff;
+
+    transition: all .5s ease;
+    &:hover {
+      text-decoration: none;
+
+      color: $yellow;
+    }
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: -50px;
+
+      display:block;
+      width: 33px;
+      height: 47px ;
+
+      background-image: url(../img/sprite.png);
+      background-repeat: no-repeat;
+      background-position: -3px -553px;
+    }
+    &--indonesia {
+      position: absolute;
+      top: 57%;
+      left: 79%;
+    }
+  }
+}
+
+
+.social {
+  margin-bottom: 60px;
+
+  &__btn {
+    padding: 6px;
+
+    color:  $yellow;
+
+    transition: all .5s ease;
+    &:hover {
+      cursor: pointer;
+
+      color: #fff;
+    }
+  }
+}

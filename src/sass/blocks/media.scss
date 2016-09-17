@@ -74,6 +74,17 @@
       font-size: 34px;
     }
   }
+
+  .map {
+    &__marker {
+      font-size: 14px;
+      &--indonesia {
+        position: absolute;
+        top: 57%;
+        left: 85%;
+      }
+    }
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -150,6 +161,19 @@
 
   .btn--plans {
     float: none;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .main-footer {
+    padding-top:  30px;
+    &__menu {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
   }
 
 }
