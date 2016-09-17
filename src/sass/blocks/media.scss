@@ -68,6 +68,23 @@
       left: 160px;
     }
   }
+
+  .plans {
+    &__title {
+      font-size: 34px;
+    }
+  }
+
+  .map {
+    &__marker {
+      font-size: 14px;
+      &--indonesia {
+        position: absolute;
+        top: 57%;
+        left: 85%;
+      }
+    }
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -132,6 +149,30 @@
     &__image {
       top: 70px;
       left: 80%;
+    }
+  }
+
+  .plans {
+    text-align: center;
+    &__text {
+      margin-bottom:  40px;
+    }
+  }
+
+  .btn--plans {
+    float: none;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .main-footer {
+    padding-top:  30px;
+    &__menu {
+      float: none;
+      text-align: center;
+      width: 100%;
     }
   }
 
@@ -225,6 +266,19 @@
     }
   }
 
+  .plans {
+    &__title {
+      font-size: 24px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .btn--plans {
+    padding: 25px 45px;
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -278,6 +332,12 @@
     &__image {
       top: 70%;
       left: 55%;
+    }
+  }
+
+  .plans {
+    &__title {
+      margin-bottom: 30px;
     }
   }
 }

@@ -16,12 +16,11 @@
 
     color: #202242;
 
+    transition: all .5s ease;
     &:hover {
       text-decoration: none;
 
       color: $yellow;
-
-      transition: all .5s ease;
     }
     &--active {
       color: $yellow;
