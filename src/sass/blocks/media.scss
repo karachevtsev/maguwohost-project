@@ -279,6 +279,49 @@
     padding: 25px 45px;
   }
 
+  .content {
+    &-header {
+      padding-top: 100px;
+      &__title {
+        font-size: 36px;
+      }
+    }
+    &-main {
+      &__title {
+        &--h2 {
+          font-size: 32px;
+        }
+        &--h3 {
+          font-size: 26px;
+        }
+        &--h4 {
+          font-size: 22px;
+        }
+      }
+      &__text {
+        font-size: 14px;
+      }
+      &__list {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .news {
+    &__title {
+      font-size: 26px;
+    }
+    &__post-title {
+      font-size: 22px;
+    }
+    &__post-text {
+      font-size: 14px;
+    }
+    &__post-date {
+      font-size: 14px;
+    }
+  }
+
 }
 
 /* Extra Small Devices, Phones */

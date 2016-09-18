@@ -1,0 +1,62 @@
+.sidebar {
+  &__image {
+    margin-bottom: 40px;
+  }
+}
+
+.news {
+  &__title {
+    margin-bottom: 15px;
+
+    font-size: 38px;
+    font-family: "Rockwell";
+
+    color: #000;
+  }
+
+  &__post {
+    margin-bottom:  30px;
+  }
+
+  &__post-title {
+    margin-bottom: 10px;
+
+    font-size: 26px;
+    font-family: "Rockwell";
+
+    color: #000;
+  }
+
+  &__post-date {
+    display: block;
+    margin-bottom: 10px;
+
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $gray;
+  }
+
+  &__post-text {
+    margin-bottom: 10px;
+
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $gray;
+  }
+
+  &__post-link {
+    color: $yellow;
+
+    transition: all .5s ease;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+
+      color: $blue;
+    }
+  }
+}
