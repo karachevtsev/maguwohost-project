@@ -12,6 +12,16 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  &--subheader {
+    position: relative;
+
+    padding-top: 200px;
+    padding-bottom: 10px;
+    min-height: 100px;
+
+    text-align: left;
+
+  }
   &:before {
     content: '';
     position: absolute;
@@ -35,6 +45,9 @@
     font-size: 48px;
 
     color: #fff;
+    &--subheader {
+      color: $blue;
+    }
   }
 
   &__description {
@@ -62,6 +75,7 @@
       background-repeat: no-repeat;
     }
   }
+
 }
 
 .search {
