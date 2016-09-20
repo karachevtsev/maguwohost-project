@@ -1,0 +1,147 @@
+.hosting-features {
+  margin-top: 40px;
+  padding-left: 150px;
+  margin-bottom: 30px;
+  &--storage {
+    position: relative;
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display:block;
+      width: 128px;
+      height: 128px ;
+
+      background-image: url(../img/ico-features--5.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &--databases {
+    position: relative;
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display:block;
+      width: 128px;
+      height: 128px ;
+
+      background-image: url(../img/ico-features--6.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &--technology {
+    position: relative;
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display:block;
+      width: 128px;
+      height: 128px ;
+
+      background-image: url(../img/ico-features--7.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &--support {
+    position: relative;
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display:block;
+      width: 128px;
+      height: 128px ;
+
+      background-image: url(../img/ico-features--8.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &--os {
+    position: relative;
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display:block;
+      width: 128px;
+      height: 128px ;
+
+      background-image: url(../img/ico-features--9.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &--applications {
+    position: relative;
+    &:before {
+      content:'';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display:block;
+      width: 128px;
+      height: 128px ;
+
+      background-image: url(../img/ico-features--10.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-family: "Rockwell";
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  &__subtitle {
+    margin-bottom: 5px;
+
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $yellow;
+  }
+
+  &__text {
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $gray;
+  }
+}
+
