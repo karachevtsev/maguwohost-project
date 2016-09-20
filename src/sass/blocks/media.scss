@@ -383,6 +383,23 @@
       margin-bottom: 30px;
     }
   }
+
+  .hosting-features {
+    padding-left: 0;
+
+    text-align: center;
+    &--storage,
+    &--databases,
+    &--technology,
+    &--support,
+    &--os,
+    &--applications {
+      &:before {
+        display: none;
+      }
+    }
+
+  }
 }
 
   /* Custom, iPhone Retina */

@@ -1,0 +1,63 @@
+.plan {
+  cursor: pointer;
+
+  margin-top: 40px;
+  margin-bottom: 70px;
+
+  border: 1px solid $gray;
+
+  transition: all .8s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &__title {
+    padding: 25px 0 25px 0;
+    font-family: "Rockwell-Bold";
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #000;
+    border-bottom: 1px solid $gray;
+
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Raleway";
+    font-size: 18px;
+
+    list-style: none;
+  }
+
+  &__items {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid $gray;
+    &--marked {
+      font-family: "Raleway-Bold";
+      background-color: $yellow;
+    }
+  }
+
+  &__btn {
+    display: block;
+    padding: 20px 0 20px 0;
+
+    font-family: "Raleway-Bold";
+    font-size: 18px;
+    text-transform: uppercase;
+
+    color: $yellow;
+    background-color: $blue;
+
+    transition: all .5s ease;
+    &:hover {
+      text-decoration: none;
+
+      color: #000;
+      background-color: $yellow;
+    }
+  }
+}
