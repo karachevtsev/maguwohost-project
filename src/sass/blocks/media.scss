@@ -398,7 +398,16 @@
         display: none;
       }
     }
+  }
 
+  .error-page {
+    &__title {
+      font-size: 170px;
+    }
+
+    &__text {
+      font-size: 28px;
+    }
   }
 }
 

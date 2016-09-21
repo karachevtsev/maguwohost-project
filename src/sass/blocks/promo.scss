@@ -134,10 +134,11 @@
   color: #2d2d2d;
   background-color: $yellow;
   border-left: 1px solid #fff;
+
+  transition: all .5s ease-in;
   &:hover{
     background-color: #fff;
     border: 1px solid $yellow;
 
-    transition: all .5s ease;
   }
 }

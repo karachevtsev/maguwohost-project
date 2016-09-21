@@ -40,9 +40,8 @@
   }
 
   &__logo {
+    transition: all .5s ease-in;
     &:hover {
-    transition: all .5s ease;
-
     box-shadow: 0px 16px 55px -17px #c0c0c0;
 
     transform: translateY(-10px);
