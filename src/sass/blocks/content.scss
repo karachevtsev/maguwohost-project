@@ -87,5 +87,36 @@
         color: $blue;
       }
     }
+
+    &__image {
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      margin-bottom: 20px;
+      font-family: "Raleway";
+      font-size: 18px;
+      line-height: 24px;
+
+      color: $yellow;
+    }
+  }
+}
+
+.btn--content {
+  padding: 15px 55px;
+  margin-bottom: 30px;
+
+  font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #202242;
+  background-color: $yellow;;
+  border: 1px solid $yellow;;
+
+  transition: all .5s ease;
+  &:hover {
+    background-color: #fff;
   }
 }
