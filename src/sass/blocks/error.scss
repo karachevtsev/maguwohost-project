@@ -1,0 +1,23 @@
+.error-page {
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-family: "Rockwell";
+    font-size: 260px;
+    font-weight: 700;
+
+    color: #2d2d2d;
+    span {
+      color: $yellow;
+    }
+  }
+
+  &__text {
+    font-family: "Raleway-Bold";
+    font-size: 36px;
+
+    color: #2d2d2d;
+  }
+}
+

@@ -105,7 +105,7 @@
 
 .btn--content {
   padding: 15px 55px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   font-family: 'Raleway';
   font-size: 18px;
@@ -115,7 +115,7 @@
   background-color: $yellow;;
   border: 1px solid $yellow;;
 
-  transition: all .5s ease;
+  transition: all .5s ease-in;
   &:hover {
     background-color: #fff;
   }

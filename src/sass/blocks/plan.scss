@@ -52,7 +52,7 @@
     color: $yellow;
     background-color: $blue;
 
-    transition: all .5s ease;
+    transition: all .5s ease-in;
     &:hover {
       text-decoration: none;
 
