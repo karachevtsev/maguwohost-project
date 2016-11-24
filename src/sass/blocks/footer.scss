@@ -29,6 +29,7 @@
 
         color: #fff;
 
+        transition: all .5s ease-in;
         &:hover {
           color: $yellow;
         }

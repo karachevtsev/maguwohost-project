@@ -1,6 +1,5 @@
 node_modules/
 bower_components/
-build/
 design/
 .vscode/
 .DS_Store

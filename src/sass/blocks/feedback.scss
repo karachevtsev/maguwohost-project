@@ -1,15 +1,10 @@
-.feedback-container {
-
-}
-
 .feedback {
   position: relative;
 
   background-color: #f5f3f3;
   &__text {
-
-
     display: block;
+    padding: 20px;
 
     font-size: 14px;
     font-style: italic;
@@ -19,8 +14,7 @@
     border: none;
   }
 
-  &__author
-  {
+  &__author {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
